@@ -11,14 +11,14 @@
     {
       "defaultArtifact": {
         "kind": "default.gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-frontend-production.yaml",
-        "reference": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-frontend-production.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-frontend-production.yaml",
+        "reference": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-frontend-production.yaml",
         "type": "gcs/object"
       },
       "id": "f07830d8-80ac-4d21-a879-35c1f3592698",
       "matchArtifact": {
         "kind": "gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-frontend-production.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-frontend-production.yaml",
         "type": "gcs/object"
       },
       "useDefaultArtifact": true,
@@ -28,14 +28,14 @@
     {
       "defaultArtifact": {
         "kind": "default.gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-backend-production.yaml",
-        "reference": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-backend-production.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-backend-production.yaml",
+        "reference": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-backend-production.yaml",
         "type": "gcs/object"
       },
       "id": "2d48e090-5610-4691-86e5-88c70123367a",
       "matchArtifact": {
         "kind": "gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-backend-production.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-backend-production.yaml",
         "type": "gcs/object"
       },
       "useDefaultArtifact": true,
@@ -45,14 +45,14 @@
     {
       "defaultArtifact": {
         "kind": "default.gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-backend-prod.yaml",
-        "reference": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-backend-prod.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-backend-prod.yaml",
+        "reference": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-backend-prod.yaml",
         "type": "gcs/object"
       },
       "id": "eafe5bee-19ca-4c81-95f6-f3d5c8695a25",
       "matchArtifact": {
         "kind": "gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-backend-prod.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-backend-prod.yaml",
         "type": "gcs/object"
       },
       "useDefaultArtifact": true,
@@ -62,14 +62,14 @@
     {
       "defaultArtifact": {
         "kind": "default.gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-frontend-prod.yaml",
-        "reference": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-frontend-prod.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-frontend-prod.yaml",
+        "reference": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-frontend-prod.yaml",
         "type": "gcs/object"
       },
       "id": "e169983d-9d3f-42fc-a739-f4f91e9bdc1c",
       "matchArtifact": {
         "kind": "gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-frontend-prod.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-frontend-prod.yaml",
         "type": "gcs/object"
       },
       "useDefaultArtifact": true,
@@ -79,15 +79,15 @@
     {
       "defaultArtifact": {
         "kind": "default.docker",
-        "name": "gcr.io/qwiklabs-gcp-01-e47696aa470b/sample-app",
-        "reference": "gcr.io/qwiklabs-gcp-01-e47696aa470b/sample-app:v1.0.0",
+        "name": "gcr.io/poc-spinnaker-lab/sample-app",
+        "reference": "gcr.io/poc-spinnaker-lab/sample-app:v1.0.8",
         "type": "docker/image",
-        "version": "v1.0.0"
+        "version": "v1.0.8"
       },
       "id": "80c8982d-f5df-4d31-b828-5d537d8f67aa",
       "matchArtifact": {
         "kind": "docker",
-        "name": "gcr.io/qwiklabs-gcp-01-e47696aa470b/sample-app",
+        "name": "gcr.io/poc-spinnaker-lab/sample-app",
         "type": "docker/image"
       },
       "useDefaultArtifact": true,
@@ -98,15 +98,15 @@
       "defaultArtifact": {
         "id": "1821af7d-d1ed-43c0-b8d1-fca97ed761d0",
         "kind": "default.gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-frontend-canary.yaml",
-        "reference": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-frontend-canary.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-frontend-canary.yaml",
+        "reference": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-frontend-canary.yaml",
         "type": "gcs/object"
       },
       "id": "3252c062-dcf0-48cf-a948-569d101f0622",
       "matchArtifact": {
         "id": "7da3f869-69b7-480a-9623-cac2e6c7552c",
         "kind": "gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-frontend-canary.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-frontend-canary.yaml",
         "type": "gcs/object"
       },
       "useDefaultArtifact": true,
@@ -116,15 +116,15 @@
       "defaultArtifact": {
         "id": "65f4dacd-0a98-4406-9357-6e016319193e",
         "kind": "default.gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-backend-canary.yaml",
-        "reference": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-backend-canary.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-backend-canary.yaml",
+        "reference": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-backend-canary.yaml",
         "type": "gcs/object"
       },
       "id": "db69c110-d95c-4004-b1e0-3e0d926f6e0b",
       "matchArtifact": {
         "id": "137eadda-b3f0-43c5-a767-c1cff812507c",
         "kind": "gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/services/sample-backend-canary.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/services/sample-backend-canary.yaml",
         "type": "gcs/object"
       },
       "useDefaultArtifact": true,
@@ -134,15 +134,15 @@
       "defaultArtifact": {
         "id": "0ff48afe-8957-4114-a310-3a3c193329a5",
         "kind": "default.gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-backend-canary.yaml",
-        "reference": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-backend-canary.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-backend-canary.yaml",
+        "reference": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-backend-canary.yaml",
         "type": "gcs/object"
       },
       "id": "c9ef0329-2c0a-424c-b74f-3c894ddc4c34",
       "matchArtifact": {
         "id": "2da697c4-839a-4e85-ae0d-ab62efef8235",
         "kind": "gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-backend-canary.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-backend-canary.yaml",
         "type": "gcs/object"
       },
       "useDefaultArtifact": true,
@@ -152,24 +152,21 @@
       "defaultArtifact": {
         "id": "f34787e7-fd0c-417e-94fd-3b841e0d4448",
         "kind": "default.gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-frontend-canary.yaml",
-        "reference": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-frontend-canary.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-frontend-canary.yaml",
+        "reference": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-frontend-canary.yaml",
         "type": "gcs/object"
       },
       "id": "a436ab58-954a-4f3d-99f0-c80f54e09a00",
       "matchArtifact": {
         "id": "37fb12bf-22c7-482f-b606-a176ddaecd85",
         "kind": "gcs",
-        "name": "gs://qwiklabs-gcp-01-e47696aa470b-kubernetes-manifests/deployments/sample-frontend-canary.yaml",
+        "name": "gs://poc-spinnaker-lab-k8s-manifests/deployments/sample-frontend-canary.yaml",
         "type": "gcs/object"
       },
       "useDefaultArtifact": true,
       "usePriorArtifact": true
     }
   ],
-  "keepWaitingPipelines": false,
-  "lastModifiedBy": "anonymous",
-  "limitConcurrent": true,
   "stages": [
     {
       "account": "default",
@@ -177,7 +174,7 @@
       "completeOtherBranchesThenFail": false,
       "continuePipeline": false,
       "failPipeline": true,
-      "manifestArtifactAccount": "gcs-qwiklabs-gcp-01-e47696aa470b",
+      "manifestArtifactAccount": "gcs-poc-spinnaker-lab",
       "manifestArtifactId": "2d48e090-5610-4691-86e5-88c70123367a",
       "moniker": {
         "app": "sample"
@@ -203,7 +200,7 @@
       "completeOtherBranchesThenFail": false,
       "continuePipeline": false,
       "failPipeline": true,
-      "manifestArtifactAccount": "gcs-qwiklabs-gcp-01-e47696aa470b",
+      "manifestArtifactAccount": "gcs-poc-spinnaker-lab",
       "manifestArtifactId": "f07830d8-80ac-4d21-a879-35c1f3592698",
       "moniker": {
         "app": "sample"
@@ -226,7 +223,7 @@
     {
       "account": "default",
       "cloudProvider": "kubernetes",
-      "manifestArtifactAccount": "gcs-qwiklabs-gcp-01-e47696aa470b",
+      "manifestArtifactAccount": "gcs-poc-spinnaker-lab",
       "manifestArtifactId": "eafe5bee-19ca-4c81-95f6-f3d5c8695a25",
       "moniker": {
         "app": "sample"
@@ -246,7 +243,7 @@
     {
       "account": "default",
       "cloudProvider": "kubernetes",
-      "manifestArtifactAccount": "gcs-qwiklabs-gcp-01-e47696aa470b",
+      "manifestArtifactAccount": "gcs-poc-spinnaker-lab",
       "manifestArtifactId": "e169983d-9d3f-42fc-a739-f4f91e9bdc1c",
       "moniker": {
         "app": "sample"
@@ -269,7 +266,7 @@
       "completeOtherBranchesThenFail": false,
       "continuePipeline": false,
       "failPipeline": true,
-      "manifestArtifactAccount": "gcs-qwiklabs-gcp-01-e47696aa470b",
+      "manifestArtifactAccount": "gcs-poc-spinnaker-lab",
       "manifestArtifactId": "c9ef0329-2c0a-424c-b74f-3c894ddc4c34",
       "moniker": {
         "app": "sample"
@@ -307,7 +304,7 @@
       "completeOtherBranchesThenFail": false,
       "continuePipeline": false,
       "failPipeline": true,
-      "manifestArtifactAccount": "gcs-qwiklabs-gcp-01-e47696aa470b",
+      "manifestArtifactAccount": "gcs-poc-spinnaker-lab",
       "manifestArtifactId": "a436ab58-954a-4f3d-99f0-c80f54e09a00",
       "moniker": {
         "app": "sample"
@@ -328,7 +325,7 @@
     {
       "account": "default",
       "cloudProvider": "kubernetes",
-      "manifestArtifactAccount": "gcs-qwiklabs-gcp-01-e47696aa470b",
+      "manifestArtifactAccount": "gcs-poc-spinnaker-lab",
       "manifestArtifactId": "db69c110-d95c-4004-b1e0-3e0d926f6e0b",
       "moniker": {
         "app": "sample"
@@ -346,7 +343,7 @@
     {
       "account": "default",
       "cloudProvider": "kubernetes",
-      "manifestArtifactAccount": "gcs-qwiklabs-gcp-01-e47696aa470b",
+      "manifestArtifactAccount": "gcs-poc-spinnaker-lab",
       "manifestArtifactId": "3252c062-dcf0-48cf-a948-569d101f0622",
       "moniker": {
         "app": "sample"
@@ -370,13 +367,13 @@
       "expectedArtifactIds": [
         "80c8982d-f5df-4d31-b828-5d537d8f67aa"
       ],
-      "organization": "qwiklabs-gcp-01-e47696aa470b",
+      "organization": "poc-spinnaker-lab",
       "payloadConstraints": {
-        "tag": "gcr.io/qwiklabs-gcp-01-e47696aa470b/sample-app:v.*"
+        "tag": "gcr.io/poc-spinnaker-lab/sample-app:v.*"
       },
       "pubsubSystem": "google",
       "registry": "gcr.io",
-      "repository": "qwiklabs-gcp-01-e47696aa470b/sample-app",
+      "repository": "poc-spinnaker-lab/sample-app",
       "subscriptionName": "gcr-triggers",
       "tag": "v.*",
       "type": "pubsub"
